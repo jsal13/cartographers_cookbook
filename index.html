@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <title>Cartographer's Cookbook</title>
+    <style>
+        body {
+            font-family: "Lora", serif;
+            font-style: normal;
+            font-size: 12px;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px 10px;
+        }
+
+        #container>div {
+            /* border: gray 1px solid;
+            border-radius: 1rem; */
+            padding-left: 10px;
+            width: 180px;
+        }
+
+        #container>div>ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        #drop-area {
+            border: 2px dashed #000000;
+            padding: 20px;
+            text-align: center;
+            height: 10rem;
+            background: #8aeb9f;
+        }
+
+        #drop-area.highlight {
+            border-color: blue;
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="drop-area">
+        <p>Drag and drop your text file here</p>
+    </div>
+
+
+    <div id="container"></div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
