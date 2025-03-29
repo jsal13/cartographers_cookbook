@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <style>
+        html {
+            margin: 0 !important;
+        }
+
+        body {
+            font-size: 10px;
+        }
+    </style>
+
+    <title>Cartographer's Cookbook</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h2>Bleed Weapons</h2>
+                <table class="table table-striped table-sm">
+                    <tbody>
+                        <tr>
+                            <td>Bloodfiend's Fork</td>
+                            <td>Bloodhound Claws</td>
+                        </tr>
+                        <tr>
+                            <td>Bloodhound's Fang</td>
+                            <td>Bloodstained Dagger</td>
+                        </tr>
+                        <tr>
+                            <td>Bloody Helice</td>
+                            <td>Briar Greatshield</td>
+                        </tr>
+                        <tr>
+                            <td>Chainlink Flail</td>
+                            <td>Cross-Naginata</td>
+                        </tr>
+                        <tr>
+                            <td>Eleonora's Poleblade</td>
+                            <td>Flail</td>
+                        </tr>
+                        <tr>
+                            <td>Flamberge</td>
+                            <td>Forked Greatsword</td>
+                        </tr>
+                        <tr>
+                            <td>Forked Hatchet</td>
+                            <td>Ghiza's Wheel</td>
+                        </tr>
+                        <tr>
+                            <td>Grave Scythe</td>
+                            <td>Great Knife</td>
+                        </tr>
+                        <tr>
+                            <td>Great Omenkiller Cleaver</td>
+                            <td>Great Stars</td>
+                        </tr>
+                        <tr>
+                            <td>Halo Scythe</td>
+                            <td>Hand of Malenia</td>
+                        </tr>
+                        <tr>
+                            <td>Hookclaws</td>
+                            <td>Hoslow's Petal Whip</td>
+                        </tr>
+                        <tr>
+                            <td>Inquisitor's Girandole</td>
+                            <td>Marred Leather Shield</td>
+                        </tr>
+                        <tr>
+                            <td>Marred Wooden Shield</td>
+                            <td>Meteoric Ore Blade</td>
+                        </tr>
+                        <tr>
+                            <td>Mohgwyn's Sacred Spear</td>
+                            <td>Moonveil</td>
+                        </tr>
+                        <tr>
+                            <td>Morgott's Cursed Sword</td>
+                            <td>Morning Star</td>
+                        </tr>
+                        <tr>
+                            <td>Nagakiba</td>
+                            <td>Nightrider Flail</td>
+                        </tr>
+                        <tr>
+                            <td>Raptor Talons</td>
+                            <td>Reduvia</td>
+                        </tr>
+                        <tr>
+                            <td>Rivers of Blood</td>
+                            <td>Scavenger's Curved Sword</td>
+                        </tr>
+                        <tr>
+                            <td>Scythe</td>
+                            <td>Shield of the Guilty</td>
+                        </tr>
+                        <tr>
+                            <td>Spiked Caestus</td>
+                            <td>Spiked Club</td>
+                        </tr>
+                        <tr>
+                            <td>Spiked Palisade Shield</td>
+                            <td>Spiked Spear</td>
+                        </tr>
+                        <tr>
+                            <td>Spiralhorn Shield</td>
+                            <td>Staff of the Guilty</td>
+                        </tr>
+                        <tr>
+                            <td>Star Fist</td>
+                            <td>Sword of Milos</td>
+                        </tr>
+                        <tr>
+                            <td>Thorned Whip</td>
+                            <td>Uchigatana</td>
+                        </tr>
+                        <tr>
+                            <td>Varré's Bouquet</td>
+                            <td>Vulgar Militia Saw</td>
+                        </tr>
+                        <tr>
+                            <td>Wakizashi</td>
+                            <td>Winged Scythe</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-3">
+                <h2>Major Key Items</h2>
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope='row'>In Limgrave</th>
+                            <td>In a chest at the top of a tower in Fort Haight. Replaces Dectus Medallion
+                                (Left)</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Stormveil Castle</th>
+                            <td>In the dark room before the Rusty Key door, guarded by a Banished
+                                Knight. Replaces Rusty Key</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Liurnia</th>
+                            <td>Given by Albus the Albinauric in Village of the Albinauric if you roll into
+                                him (he is disguised as a pot). Replaces Haligtree Secret Medallion (Right)</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Liurnia</th>
+                            <td>Guarded by Glintstone Dragon Smarag. Replaces Academy Glintstone Key</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Liurnia</th>
+                            <td>In a chest at the topmost of the Belfries. Replaces Imbued Sword Key</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Academy of Raya Lucaria</th>
+                            <td>On a robed corpse in the Raya Lucaria rooftop path, accessed
+                                by looping around from Debate Parlor by dropping down past the rubble-strewn stairs.
+                                Replaces Imbued Sword Key</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Academy of Raya Lucaria</th>
+                            <td>In a chest unlocked by Discarded Palace Key in the Raya
+                                Lucaria Grand Library. Replaces Dark Moon Ring</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Caelid</th>
+                            <td>In a chest hidden behind a magical barrier in Sellia, accessed by lighting
+                                flames around town. Replaces Imbued Sword Key</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Dragonbarrow</th>
+                            <td>In a chest up the first ladder at Fort Faroth. Replaces Dectus
+                                Medallion (Right)</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Leyndell</th>
+                            <td>Given by Melina after defeating Morgott. Replaces Rold Medallion</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Divine Tower of Liurnia</th>
+                            <td>At the top of the Divine Tower of Liurnia, accessed after
+                                traversing Carian Study Hall. Replaces Stargazer Heirloom, Cursemark of Death</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Volcano Manor</th>
+                            <td>Given by Tanith upon joining Volcano Manor, or in her chair after
+                                defeating Rykard. Replaces Drawing-Room Key</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Mountaintops of the Giants</th>
+                            <td>Atop a tower after defeating Commander Niall. Replaces
+                                Haligtree Secret Medallion (Left)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-3">
+                <h2>Major Bosses</h2>
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope='row'>In Stormhill</th>
+                            <td>Dropped by Margit the Fell Omen or Morgott the Omen King. Replaces Talisman Pouch
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Stormveil Castle</th>
+                            <td>Dropped by Godrick the Grafted. Replaces Godrick's Great Rune, Remembrance of the
+                                Grafted
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Weeping Peninsula</th>
+                            <td>Dropped by Leonine Misbegotten south of Castle Morne. Replaces Grafted Blade
+                                Greatsword
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Liurnia</th>
+                            <td>Dropped by Royal Knight Loretta. Replaces Loretta's Greatbow, Ash of War "Loretta's
+                                Slash"</th>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Academy of Raya Lucaria</th>
+                            <td>Dropped by Red Wolf of Radagon. Replaces Memory Stone</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Academy of Raya Lucaria</th>
+                            <td>Dropped by Rennala. Replaces Great Rune of the Unborn, Remembrance of the Full Moon
+                                Queen
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Siofra River</th>
+                            <td>Dropped by Ancestor Spirit. Replaces Ancestral Follower Ashes</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Ainsel River Downstream</th>
+                            <td>Dropped by Dragonkin Soldier of Nokstella. Replaces Frozen Lightning Spear</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Ruin-Strewn Precipice</th>
+                            <td>Dropped by Magma Wyrm Makar. Replaces Magma Wyrm's Scalesword, Dragon Heart</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Altus Plateau</th>
+                            <td>Dropped by Elemer of the Briar. Replaces Marais Executioner's Sword, Briar
+                                Greatshield
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Leyndell</th>
+                            <td>Dropped by Godfrey, First Elden Lord, in the Erdtree Sanctuary. Replaces Talisman
+                                Pouch
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Leyndell</th>
+                            <td>Dropped by Morgott the Omen King. Replaces Morgott's Great Rune, Remembrance of the
+                                Omen
+                                King</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Subterranean Shunning-Grounds</th>
+                            <td>Dropped by Mohg the Omen. Replaces Bloodflame Talons</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Caelid</th>
+                            <td>Dropped by Starscourge Radahn. Replaces Radahn's Great Rune, Remembrance of the
+                                Starscourge
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Nokron, Eternal City</th>
+                            <td>Dropped by Mimic Tear. Replaces Silver Tear Mask, Larval Tear 2x</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-3">
+                <table class="table table-striped table-sm">
+                    <h2>Major Bosses</h2>
+                    <thead>
+                        <tr>
+                            <th>Area</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope='row'>In Nokron, Eternal City</th>
+                            <td>Dropped by Regal Ancestor Spirit. Replaces Remembrance of the Regal Ancestor
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Nokron, Eternal City</th>
+                            <td>Dropped by Valiant Gargoyles after Siofra Aqueduct. Replaces Gargoyle's
+                                Greatsword,
+                                Gargoyle's Twinblade</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Volcano Manor</th>
+                            <td>Dropped by Godskin Noble. Replaces Godskin Stitcher, Noble Presence</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Volcano Manor</th>
+                            <td>Dropped by Rykard. Replaces Rykard's Great Rune, Remembrance of the Blasphemous
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Ainsel River</th>
+                            <td>Dropped by Astel, Naturalborn of the Void. Replaces Remembrance of the
+                                Naturalborn
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Mountaintops of the Giants</th>
+                            <td>Dropped by Commander Niall in Castle Sol. Replaces Veteran's Prosthesis</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Flame Peak</th>
+                            <td>Dropped by Fire Giant. Replaces Remembrance of the Fire Giant</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Farum Azula</th>
+                            <td>Dropped by Godskin Duo. Replaces Smithing-Stone Miner's Bell Bearing [4], Ash of
+                                War
+                                "Black Flame Tornado"
+                                </th>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Farum Azula</th>
+                            <td>Dropped by Dragonlord Placidusax. Replaces Remembrance of the Dragonlord</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Farum Azula</th>
+                            <td>Dropped by Maliketh, the Black Blade. Replaces Remembrance of the Black Blade
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Haligtree</th>
+                            <td>Dropped by Loretta, Knight of the Haligtree. Replaces Loretta's War Sickle,
+                                Loretta's
+                                Mastery</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Haligtree</th>
+                            <td>Dropped by Malenia. Replaces Malenia's Great Rune, Remembrance of the Rot
+                                Goddess
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Mohgwyn</th>
+                            <td>Dropped by Mohg, Lord of Blood. Replaces Mohg's Great Rune, Remembrance of the
+                                Blood
+                                Lord
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Ashen Leyndell</th>
+                            <td>Dropped by Hoarah Loux. Replaces Remembrance of Hoarah Loux</td>
+                        </tr>
+                        <tr>
+                            <th scope='row'>In Stone Platform</th>
+                            <td>Dropped by Elden Beast. Replaces Elden Remembrance</td>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
